@@ -1,14 +1,19 @@
 import React from 'react'
 import {Gallery, GalleryImage} from "react-gesture-gallery";
 
+// Gambar Import
+import award1 from "../../Assets/img/award1.png"
+import award2 from "../../Assets/img/award2.png"
+import award3 from "../../Assets/img/award3.png"
+import award4 from "../../Assets/img/award4.png"
+import award5 from "../../Assets/img/award5.png"
+
+
 const image = [
-  "https://lelogama.go-jek.com/cache/b9/25/b92536b33952d8d716079b258e9d97f7.webp",
-  "https://lelogama.go-jek.com/cache/4a/1b/4a1b3c0a3ba3881cdb494d6b8417564f.webp" ,
-  "https://lelogama.go-jek.com/cache/00/8e/008eaf260ba493b6ab0116eec75bbf6a.webp",
-  "https://lelogama.go-jek.com/cache/97/a7/97a7e67f992572296db24b02006523a1.webp"
+  award1, award2, award3, award4, award5,
 ];
 
-const Carousel = () => {
+const CarouselAb = () => {
   const [index, setIndex] = React.useState(0);
 
   React.useEffect(() => {
@@ -23,7 +28,9 @@ const Carousel = () => {
     }, [index]);
 
     return (
-      <Gallery
+      <div>
+        <h1 className="ab-h1">Penghargaan</h1>
+        <Gallery
         style = {{
           overflow: "hidden",
           margin: "50px 0px 50px 160px",
@@ -34,15 +41,14 @@ const Carousel = () => {
         index = {index}
         onRequestChange={i => {
           setIndex(i);
-        }} 
->
+        }} >
         {image.map(images => (
           <GalleryImage objectFit="contain" key={images} src={images}/>
         ))}
       </Gallery>
+      </div>
     );
 }
 
 
-export default Carousel;
-
+export default CarouselAb;

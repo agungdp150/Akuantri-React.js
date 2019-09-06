@@ -9,7 +9,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
 }
 
 /* End of Default Set */
@@ -20,7 +20,7 @@ nav {
   /* justify-content: space-around; */
   align-items: center;
   min-height: 80px;
-  background-color: aliceblue;
+  background-color: white;
   position: fixed;
   width: 100%;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
@@ -53,7 +53,7 @@ nav {
 }
 
 .box select {
-  background-color: aliceblue;
+  background-color: white;
   color: #494A4A;
   padding: 10px;
   width: 190px;
@@ -70,7 +70,7 @@ nav {
 /* Background Set */
 .background {
   background-image: url("https://lelogama.go-jek.com/component/hero/picture/HOME-PAGE.jpg");
-  padding-bottom: 14%;
+  padding-bottom: 16%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -82,7 +82,7 @@ nav {
   line-height: 58px;
   text-align: left;
   /* display: block; */
-  color: aliceblue;
+  color: rgb(255, 255, 255);
   padding: 150px 150px 30px 100px;
   font-weight: bold;
 }
@@ -96,7 +96,7 @@ nav {
 }
 
 .text-design a {
-  color: aliceblue;
+  color: rgb(245, 245, 245);
   text-decoration: none;
   font-weight: bold;
   margin: 0px 150px 0px 100px;
@@ -201,10 +201,6 @@ nav {
 }
 
 /* End New Logo Set */
-
-/* New Feature Set */
-
-/* End of New Feature */
 
 /* Card Set */
 
@@ -442,3 +438,278 @@ hr {
 }
 
 /* End of footer set */
+
+/* ABOUT SETTING */
+
+/* Semangat Set */
+.ab-smgt {
+  display: grid;
+  padding-top : 120px;
+  grid-template-columns: repeat(2, 1fr);
+  color: rgb(46, 45, 45);
+}
+
+.ab-g1 {
+  margin-left : 70px;
+  margin-right: -180px;
+}
+
+.ab-g1 p{
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.ab-g2 {
+  text-align: center;
+  margin-left: 100px;
+}
+
+.ab-g2  img{
+  border-radius: 10px;
+  width: 45%;
+}
+
+/* End of semangat set */
+
+/* Sejarah */
+
+.ab-smgt1 {
+  display: grid;
+  padding-top : 40px;
+  grid-template-columns: repeat(2, 1fr);
+  color: rgb(46, 45, 45);
+}
+
+.ab-g3 {
+  text-align: left;
+  margin-left: 70px;
+  padding-top: 40px;
+}
+
+.ab-g3 img{
+  border-radius: 10px;
+  width: 45%;
+}
+
+.ab-g4 {
+  margin-left : 70px;
+  margin-left: -250px;
+  margin-right: 160px;
+}
+
+.ab-g4 p{
+  font-size: 14px;
+  line-height: 25px;
+}
+
+/* End of sejarah set */
+
+/* Pilar Set */
+.ab-pilar{
+  text-align: center;
+  margin: 50px 0px;
+}
+
+.pilar-1{
+  display : grid;
+  margin: 20px 110px;
+  grid-gap: 40px;
+  text-align: center;
+  line-height: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  padding-bottom: 50px; 
+}
+
+/* End od Pilar Set */
+
+/* Layanan Set */
+.ab-ly1 {
+  display: grid;
+  padding-top : 40px;
+  grid-template-columns: repeat(2, 1fr);
+  color: rgb(46, 45, 45);
+}
+
+.ab-lay1 {
+  margin-left: 70px;
+}
+
+.ab-lay1 img{
+  border-radius: 20px;
+  width: 80%;
+}
+
+.ab-lay2 {
+  margin-left: -80px;
+  padding-top : 60px;
+  margin-right: 200px;
+  line-height: 20px;
+}
+
+.ab-lay3 {
+  margin-left: 70px;
+  margin-right: 30px;
+}
+
+/* End of layanan set */
+
+/* Pengharagaan set*/
+.ab-h1 {
+  text-align: center;
+  margin-top: 2em;
+}
+
+/* End of pengharagan set */
+
+/* Official Set */
+.of-grid {
+  display: grid;
+  margin : auto 70px;
+  line-height: 30px;
+  padding-top : 40px;
+  grid-gap: 5px;
+  grid-template-columns: repeat(3, 1fr);
+  color: rgb(46, 45, 45);
+}
+
+.of-grid1 {
+  line-height: 35px;
+}
+
+.of-grid1 h2 {
+  margin : 15px 0px;
+}
+
+.of-grid1 hr {
+  border : solid #BBBBBB 0.5px;
+  margin: 35px 190px 35px 0px;
+}
+
+.of-grid1 i {
+  margin-right: 10px;
+}
+
+.of-grid2 {
+  line-height: 35px;
+}
+
+.of-grid2 h2 {
+  margin : 15px 0px;
+}
+
+.of-grid2 hr {
+  border : solid #BBBBBB 0.5px;
+  margin: 35px 190px 35px 0px;
+}
+
+.of-grid2 i {
+  margin-right: 10px;
+}
+
+.of-grid3 {
+  line-height: 35px;
+}
+
+.of-grid3 h2 {
+  margin : 15px 0px;
+}
+
+.of-grid3 hr {
+  border : solid #BBBBBB 0.5px;
+  margin: 35px 190px 35px 0px;
+}
+
+.of-grid3 i {
+  margin-right: 10px;
+}
+
+
+/* End of Official Set */
+
+/* ABOUT CERDIKIAWAN */
+
+/* About */
+.cer-ab {
+  margin: 70px 0px 10px 80px;
+}
+
+.ab-jadi {
+  margin-bottom: 50px;
+  line-height: 28px;
+}
+
+.ab-jadi h1 {
+  line-height: 40px;
+}
+
+.ab-cer {
+  margin-bottom : 50px;
+}
+
+.ab-cer img{
+  width: 85%;
+  height: 480px;
+  margin-left : 100px;
+  border-radius: 30px; 
+}
+
+.ab-lay3 button {
+  border : solid 1px #4DAB18;
+  color : #4DAB18;
+  margin : 30px 5px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 15px 40px;
+  font-size: 16px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.cer-img {
+  background: url("./Assets/img/gojek1.png");
+  padding-top : 6%;
+  padding-bottom: 6%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.cer-grid0 {
+  display: grid;
+  margin: 0px 80px;
+  grid-gap: 5px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.cer-grid1 {
+  margin-top: 80px;
+  color: white;
+}
+
+.cer-grid2 {
+  margin-top : 10px;
+  margin-left: 50px;
+}
+
+.cer-grid2 img{
+  width: 80%;
+  border-radius: 20px;
+}
+
+.cer-grid3 {
+  margin-top : 10px;
+  margin-left: 10px;
+}
+
+.cer-grid3 img{
+  width: 70%;
+  border-radius: 20px;
+}
+
+
+
+
+
+/* End of About */
+
+

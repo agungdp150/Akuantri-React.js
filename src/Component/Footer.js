@@ -85,7 +85,7 @@ export default class Footer extends Component {
           </div>
           </div>
           <hr/>
-          <div class="ket-plus">&copy; 2019 Copyright GoJek
+          <div class="ket-plus">&copy; 2019 Copyright TOdo Project
         <p>Gojek adalah merek milik PT Aplikasi Karya Anak Bangsa. Terdaftar pada Direktorat Jendral Kekayaan
           Intelektual Republik Indonesia.</p>
       </div>

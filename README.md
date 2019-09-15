@@ -1,4 +1,4 @@
-# My Akuantri Project
+# My GOjek Project
 
 In this project I try using React.js to make website gojek, I get all resource data such as Image, logo, etc In website gojek. this project using React-Router-Dom, React-Icons-Kit, React-Gesture-Gallery, and font awesome. 
 
